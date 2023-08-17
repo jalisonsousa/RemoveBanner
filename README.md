@@ -4,5 +4,6 @@
 
 
 para uso mais pratico adicione no seu head
-
+```
 <script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removeBanner2.js"></script>
+```
