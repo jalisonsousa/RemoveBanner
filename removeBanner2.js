@@ -1,1 +1,21 @@
-window.onload=function(){var e=document.querySelector('div[style*="text-align:right;position:fixed;z-index:9999999;bottom:0;width:auto;right:1%;cursor:pointer;line-height:0;display:block!important"]');e&&e.parentNode.removeChild(e);for(var t=document.getElementsByTagName("script"),o=0;o<t.length;o++){var i=t[o];if(i.src.includes("footer-powered-by-000webhost-white2.png")){i.style.display="none";break}}};
+var scriptTags = document.getElementsByTagName('script');
+for (var i = 0; i < scriptTags.length; i++) {
+    var scriptTag = scriptTags[i];
+    var scriptContent = scriptTag.innerHTML;
+
+    if (scriptContent.includes('cdn.000webhost.com')) {
+        scriptTag.parentNode.removeChild(scriptTag);
+        break;
+    }
+}
+
+var divs = document.getElementsByTagName('div');
+for (var j = 0; j < divs.length; j++) {
+    var div = divs[j];
+    var divInnerHTML = div.innerHTML;
+
+    if (divInnerHTML.includes('cdn.000webhost.com')) {
+        div.parentNode.removeChild(div);
+        break;
+    }
+}
