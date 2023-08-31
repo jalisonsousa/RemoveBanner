@@ -1,9 +1,9 @@
 # RemoveBanner
-🟩 Portuguese: oculta o Banner  da 00webhost do seu site hospedado nele</br>
-🟥 English: hide 00webhost Banner on website
+🟩 Portuguese: remova o Banner 00webhost do seu site hospedado nele</br>
+🟥 English: hide 000webhost banner from this js
 
 
 para uso mais pratico adicione no seu head
 ```
-<script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removeBanner2.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/jalisonsousa/RemoveBanner/removebanner.js"></script>
 ```
